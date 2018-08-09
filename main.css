@@ -1,0 +1,13 @@
+body {
+  background: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  opacity: 0.8;
+}
+
+.searchContainer {
+  opacity: 0.8;
+}
