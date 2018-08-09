@@ -3,13 +3,8 @@ class Tibia {
     
   }
   async getCharacter(char) {
-    const characterResponse = await fetch(`https://api.tibiadata.com/v2/characters/${char}.json`, {
-      mode: 'no-cors',
-      headers: {
-        "Access-Control-Allow-Origin" : "*", 
-        "Access-Control-Allow-Credentials" : true 
-      }
-    });
+    const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+    const characterResponse = await fetch(proxyUrl + `https://api.tibiadata.com/v2/characters/${char}.json`);
 
     const character = await characterResponse.json();
 
