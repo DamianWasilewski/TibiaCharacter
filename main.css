@@ -4,10 +4,16 @@ body {
   background-size: cover;
 }
 
-.navbar {
-  opacity: 0.8;
+.badge {
+  font-size: 150%;
 }
 
-.searchContainer {
-  opacity: 0.8;
+.death-badge {
+  background-color: transparent;
+  color: black;
+}
+
+.list-group-item {
+  color: black;
+  font-size: 125%
 }

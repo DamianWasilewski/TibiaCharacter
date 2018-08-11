@@ -8,6 +8,7 @@ class Tibia {
 
     const character = await characterResponse.json();
 
+    console.log(character);
     return {
       character
     }
