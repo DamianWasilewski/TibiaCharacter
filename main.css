@@ -1,11 +1,10 @@
 body {
-  background: url(images/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgb(44, 62, 80);
+  filter: brightness(0.8);
 }
 
 .badge {
-  font-size: 150%;
+  font-size: 100%;
 }
 
 .death-badge {
